@@ -64,7 +64,7 @@ function resetBoard(){
 (function suffleCards(){
     cards.forEach(card => {
         let randomNr = Math.floor(Math.random()*12);
-        card.computedStyleMap.order = randomNr;
+        card.style.order = randomNr;
     });
 })();
 
