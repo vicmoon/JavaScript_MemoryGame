@@ -39,6 +39,10 @@ transition: transform .2s;
  transition: transform .2s;   
 }
 
+.memory-card:hover{
+    cursor:grabbing; 
+}
+
 .memory-card.flip{
    transform: rotateY(180deg); 
 }
