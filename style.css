@@ -17,8 +17,8 @@ body{
 margin: auto;
 display: flex;
 flex-wrap: wrap;
-width: 650px;
-height: 650px;
+width: 690px;
+height: 690px;
 border: 2px solid greenyellow;
 perspective:1000px ;
 }
